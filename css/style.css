@@ -112,7 +112,7 @@ header {
   z-index: 10;
 }
 
-/* line 10, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
+/* line 9, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
 header ul {
   margin: 0 auto;
   display: block;
@@ -120,20 +120,20 @@ header ul {
   width: auto;
 }
 
-/* line 15, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
+/* line 14, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
 header ul li {
   display: inline-block;
   padding: 30px 10px 30px 0;
 }
 
-/* line 19, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
+/* line 18, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
 header ul li a {
   text-decoration: none;
   color: #ffffff;
   opacity: 0.5;
 }
 
-/* line 24, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
+/* line 23, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_header.scss */
 header ul li a:hover {
   opacity: 1 !important;
 }
@@ -149,19 +149,19 @@ section {
   height: 90%;
 }
 
-/* line 15, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 10, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 section .left {
   float: left;
 }
 
-/* line 18, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 13, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 section .right {
   float: right;
 }
 
-/* line 21, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 16, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 section h2 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 100;
   font-size: 2.5em;
   padding: 0;
@@ -170,86 +170,86 @@ section h2 {
 }
 
 @media (min-width: 200px) and (max-width: 980px) {
-  /* line 21, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 16, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   section h2 {
     font-size: 4em;
   }
 }
 
-/* line 32, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 27, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 section p {
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   opacity: 0.6;
   margin: 0;
 }
 
-/* line 41, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 34, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #what {
-  background-image: url("../images/21847912209_1a6226b235_o.jpg");
+  background-image: url("../images/21847912209_1a6226b235_o-min.jpg");
 }
 
-/* line 43, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 36, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #what h2 {
   margin: 0;
   line-height: 28px;
 }
 
 @media (min-width: 200px) and (max-width: 980px) {
-  /* line 43, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 36, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   #what h2 {
     line-height: 3em;
   }
 }
 
-/* line 51, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 44, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #what h2, #what p {
   animation: move 10s infinite;
 }
 
-/* line 56, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 49, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #if {
-  background-image: url("../images/22056325752_d21d351a47_o.jpg");
+  background-image: url("../images/22056325752_d21d351a47_o-min.jpg");
 }
 
-/* line 60, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 53, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they {
-  background-image: url("../images/21863960029_71129de5d5_o.jpg");
+  background-image: url("../images/21863960029_71129de5d5_o-min.jpg");
   padding-top: 200px;
 }
 
-/* line 63, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 56, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container {
   opacity: 0.9;
 }
 
-/* line 65, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 58, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container .row {
   margin: 100px 0;
 }
 
-/* line 67, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 60, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container .row:first-child {
   text-align: center;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
   font-size: 10px;
 }
 
-/* line 73, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 66, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container h5 {
   text-align: center;
   font-weight: 100;
   font-size: 1.4em;
   color: #000000;
   opacity: 0.8;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-/* line 81, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 74, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container h3 {
   font-size: 2em;
 }
 
-/* line 84, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 77, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container .underline {
   width: 70%;
   height: 2px;
@@ -260,7 +260,7 @@ section p {
   margin-bottom: 10px;
 }
 
-/* line 93, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 86, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #they .grid-container p {
   text-align: center;
   font-size: 0.8em;
@@ -268,74 +268,74 @@ section p {
   color: #000000;
 }
 
-/* line 102, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 95, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #never {
-  background-image: url("../images/21904208800_54ef0de345_o.jpg");
+  background-image: url("../images/21904208800_54ef0de345_o-min.jpg");
 }
 
-/* line 106, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 99, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #went {
-  background-image: url("../images/22143028298_d80761baf6_o.jpg");
+  background-image: url("../images/22143028298_d80761baf6_o-min.jpg");
 }
 
-/* line 108, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 101, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #went .col-4 {
   padding: 0 30px 50px 30px;
   box-sizing: border-box;
 }
 
-/* line 112, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 105, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #went h4 {
   font-weight: 100;
   font-size: 24px;
   opacity: 0.8;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 @media (min-width: 200px) and (max-width: 980px) {
-  /* line 106, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 99, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   #went {
     padding-bottom: 500px;
   }
 }
 
-/* line 123, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 116, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend {
-  background-image: url("../images/21880885188_6ae5f78961_o.jpg");
+  background-image: url("../images/21880885188_6ae5f78961_o-min.jpg");
 }
 
-/* line 126, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 119, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend p {
   margin-top: 250px;
   font-size: 14px;
 }
 
-/* line 129, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 122, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend p a {
   color: #ffffff;
 }
 
-/* line 132, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 125, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend p a:hover {
   color: #ffffff;
 }
 
-/* line 135, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 128, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend p a:active {
   color: #ffffff;
 }
 
-/* line 138, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+/* line 131, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
 #theend p a:visited {
   color: #ffffff;
 }
 
 @media (min-width: 200px) and (max-width: 980px) and (position: landscape) {
-  /* line 123, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 116, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   #theend {
     padding-top: 200px;
   }
-  /* line 143, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 136, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   #theend p {
     margin-top: 0;
     margin-bottom: 0;
@@ -343,7 +343,7 @@ section p {
 }
 
 @media (min-width: 200px) and (max-width: 980px) and (position: portrait) {
-  /* line 150, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
+  /* line 143, /Users/sobylmine/Wszystko/CODEWORK/7. the moon/scss/partials/_content.scss */
   #theend p {
     margin-top: 400px;
     margin-bottom: 0;
