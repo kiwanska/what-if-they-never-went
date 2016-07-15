@@ -1,0 +1,40 @@
+.grid-container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: block;
+	min-height: 60vh;
+}
+
+.row:before, .row:after {
+	content: " "; 
+	display: table; 
+	clear: both;
+}
+
+@media (min-width: 980px) {
+
+	[class*='col-'] {
+		float: left;
+		min-height: 30px;
+	}
+
+	@for $i from 1 through $columns {
+		.col-#{$i} {width: 100% / $columns * $i;}
+	}
+
+}
+
+@media (min-width: 200px) and (max-width: 980px) {
+	
+	[class*='s-col-'] {
+		float: left;
+		min-height: 30px;
+	}
+
+	@for $i from 1 through 6 {
+		.s-col-#{$i} {width: 100% / 6 * $i;}
+	}
+
+}
+
