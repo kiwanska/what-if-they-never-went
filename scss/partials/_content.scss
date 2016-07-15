@@ -1,16 +1,11 @@
 section {
 	width: 100%;
 	padding: 300px 0;
-	color: #ffffff;
+	color: $white;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center; 
-	// .visible {
-		height: 90%;
-	// 	position: fixed;
-	// 	top: 30px;
-	// 	overflow: scroll;
-	// }
+	height: 90%;
 
 	.left {
 		float: left;
@@ -19,7 +14,7 @@ section {
 		float: right;
 	}
 	h2 {
-		font-family: 'Roboto Condensed', sans-serif;
+		font-family: $roboto;
 		font-weight: 100;
 		font-size: 2.5em;
 		@media (min-width: 200px) and (max-width: 980px) {
@@ -30,16 +25,14 @@ section {
 		opacity: 0.6;
 	}
 	p {
-		font-family: 'Prompt', sans-serif;
+		font-family: $prompt;
 		opacity: 0.6;
 		margin: 0;
-		// height: 90%;
-		// overflow: hidden;
 	}
 }
 
 #what {
-	background-image: url('../images/21847912209_1a6226b235_o.jpg');
+	background-image: url('../images/21847912209_1a6226b235_o-min.jpg');
 	h2 {
 		margin: 0;
 		line-height: 28px;
@@ -54,11 +47,11 @@ section {
 }
 
 #if {
-	background-image: url('../images/22056325752_d21d351a47_o.jpg');
+	background-image: url('../images/22056325752_d21d351a47_o-min.jpg');
 }
 
 #they {
-	background-image: url('../images/21863960029_71129de5d5_o.jpg');
+	background-image: url('../images/21863960029_71129de5d5_o-min.jpg');
 	padding-top: 200px;
 	.grid-container {
 		opacity: 0.9;
@@ -66,7 +59,7 @@ section {
 			margin: 100px 0;
 			&:first-child {
 				text-align: center;
-				font-family: 'Prompt', sans-serif;
+				font-family: $prompt;
 				font-size: 10px;
 			} 
 		}
@@ -76,7 +69,7 @@ section {
 			font-size: 1.4em;
 			color: #000000;
 			opacity: 0.8;
-			font-family: 'Roboto Condensed', sans-serif;
+			font-family: $roboto;
 		}
 		h3 {
 			font-size: 2em;
@@ -94,17 +87,17 @@ section {
 			text-align: center;
 			font-size: 0.8em;
 			opacity: 0.6;
-			color: #000000;
+			color: $black;
 		}
 	}
 }
 
 #never {
-	background-image: url('../images/21904208800_54ef0de345_o.jpg');
+	background-image: url('../images/21904208800_54ef0de345_o-min.jpg');
 }
 
 #went {
-	background-image: url('../images/22143028298_d80761baf6_o.jpg');
+	background-image: url('../images/22143028298_d80761baf6_o-min.jpg');
 	.col-4 {
 		padding: 0 30px 50px 30px;
 		box-sizing: border-box;
@@ -113,7 +106,7 @@ section {
 		font-weight: 100;
 		font-size: 24px;
 		opacity: 0.8;
-		font-family: 'Roboto Condensed', sans-serif;
+		font-family: $roboto;
 	}
 	@media (min-width: 200px) and (max-width: 980px) {
 		padding-bottom: 500px;
@@ -121,22 +114,22 @@ section {
 }
 
 #theend {
-	background-image: url('../images/21880885188_6ae5f78961_o.jpg');
+	background-image: url('../images/21880885188_6ae5f78961_o-min.jpg');
 	// padding-bottom: 400px;
 	p {
 		margin-top: 250px;
 		font-size: 14px;
 		a {
-			color: #ffffff;
+			color: $white;
 		}
 		a:hover {
-			color: #ffffff;
+			color: $white;
 		}
 		a:active {
-			color: #ffffff;
+			color: $white;
 		}
 		a:visited {
-			color: #ffffff;
+			color: $white;
 		}
 	}
 	@media (min-width: 200px) and (max-width: 980px) and (position: landscape){
